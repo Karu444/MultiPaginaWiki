@@ -1,0 +1,44 @@
+:root {
+    --fux: rgb(255, 99, 112);
+    --pie: rgb(244, 241, 187);
+    --blu: rgb(102, 215, 209);
+    --gri: rgb(218, 238, 241);
+    --pio: rgb(255, 248, 127);
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--gri);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .character {
+    width: 300px; 
+    height: 500px; 
+    margin: 20px;
+    text-align: center;
+    background-color: var(--pie);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(30, 10, 34, 0.2);
+  }
+  
+  .character img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 5px;
+  }
+  
+  .character a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--blu);
+    font-weight: bold;
+  }
+  

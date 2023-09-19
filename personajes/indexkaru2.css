@@ -1,0 +1,102 @@
+:root {
+  --fux: rgb(255, 99, 112);
+  --pie: rgb(244, 241, 187);
+  --blu: rgb(102, 215, 209);
+  --gri: rgb(218, 238, 241);
+  --pio: rgb(255, 248, 127);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--gri); 
+  color: rgb(62, 31, 80); 
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--fux); 
+  color: white; 
+  padding: 20px;
+  text-align: center;
+}
+
+.menu {
+  background-color: var(--blu); 
+  color: white; 
+  padding: 10px;
+  height: 50px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-around;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.contenedor1 {
+  flex: 1;
+  background-color: white;
+  border: 1px solid var(--blu); 
+  padding: 20px;
+}
+
+.image-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.contenedor2 {
+  flex: 1;
+}
+
+.personaje {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column; 
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white; 
+  border: 1px solid var(--blu); 
+  text-align: center; 
+}
+
+.personaje img {
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+} 
+
+.descripcion {
+  flex: 1;
+}
+.div.descripcion{
+  color: var(--fux);
+}
